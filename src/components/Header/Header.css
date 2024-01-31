@@ -1,0 +1,45 @@
+.site-header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 5;
+}
+
+.site-logo img {
+    padding-bottom: 2px;
+}
+
+/* Navigation */
+.navbar-nav > li > a {
+    padding: 5px 0;
+    font-weight: 600;
+    /* color: #212121; */
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.25s ease-in-out;
+    -moz-transition: border-color 0.25s ease-in-out;
+    -webkit-transition: border-color 0.25s ease-in-out;
+    -o-transition: border-color 0.25s ease-in-out;
+    -ms-transition: border-color 0.25s ease-in-out;
+}
+
+.navbar-nav.navbar-right {
+    margin-right: 0;
+}
+
+.navbar-nav > li + li > a {
+    margin-left: 40px;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a,
+.nav > li > a:hover,
+.nav > li.active > a {
+    background-color: transparent;
+    border-bottom: 2px solid #212121;
+}
+
+.nav > li > a:focus {
+    background-color: transparent;
+}

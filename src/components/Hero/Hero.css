@@ -1,0 +1,95 @@
+.hero { 
+    background: url(src/assets/img/hero.jpg) no-repeat center / cover; 
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+    margin: 16px;
+    margin-top: 0; 
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.hero .container {
+    position: relative;
+    height: 100%;
+}
+
+.hero .col-md-6:first-child {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 2;
+}
+
+.btn {
+    min-width: 145px;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: box-shadow 0.25s ease-in-out;
+    -moz-transition: box-shadow 0.25s ease-in-out;
+    -webkit-transition: box-shadow 0.25s ease-in-out;
+    -o-transition: box-shadow 0.25s ease-in-out;
+    -ms-transition: box-shadow 0.25s ease-in-out;
+  
+   
+}
+
+.btn-fill {
+    color: #fff;
+    background-color: #212121;
+}
+
+.btn-border {
+    background-color: transparent;
+    color: #212121;
+    border: 1px solid #212121; 
+}
+
+.btn-fill:hover,
+.btn-fill:focus {
+    color: #212121;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+ /* .btn .btn-fill{
+    background-color: black;
+    color: black;
+} */
+
+/* .hero .col-md-6:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hero h1 {
+    font-size: 46px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+} */
+
+.job-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+    line-height: 1;
+} 
+
+/* .hero img {
+    height: 600px;
+} */
